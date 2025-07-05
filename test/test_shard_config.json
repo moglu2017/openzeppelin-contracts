@@ -1,0 +1,74 @@
+[
+    {
+        "sharding_id": "access",
+        "sources_paths": [
+            "./test/access/",
+            "./test/helpers/",
+            "./test//utils/introspection/SupportsInterface.behavior.js"
+        ]
+    },
+    {
+        "sharding_id": "finance",
+        "sources_paths": [
+            "./test/finance/",
+            "./test/helpers/"
+        ]
+    },
+    {
+        "sharding_id": "governance",
+        "sources_paths": [
+            "./test/governance/",
+            "./test/helpers/",
+            "./test/utils/introspection/SupportsInterface.behavior.js"
+        ]
+    },
+    {
+        "sharding_id": "metatx",
+        "sources_paths": [
+            "./test/metatx/",
+            "./test/helpers/",
+            "./test/utils/Context.behavior.js"
+        ]
+    },
+    {
+        "sharding_id": "proxy",
+        "sources_paths": [
+            "./test/proxy/",
+            "./test/helpers/"
+        ]
+    },
+    {
+        "sharding_id": "token_ERC20",
+        "sources_paths": [
+            "./test/token/ERC20/",
+            "./test/helpers/",
+            "./test/governance/utils/Votes.behavior.js",
+            "./test/governance/utils/EIP6372.behavior.js"
+        ]
+    },
+    {
+        "sharding_id": "token_ERC721",
+        "sources_paths": [
+            "./test/token/ERC20/",
+            "./test/helpers/",
+            "./test/governance/utils/Votes.behavior.js",
+            "./test/governance/utils/EIP6372.behavior.js"
+        ]
+    },
+    {
+        "sharding_id": "token_ERC1155",
+        "sources_paths": [
+            "./test/token/ERC20/",
+            "./test/helpers/",
+            "./test/governance/utils/Votes.behavior.js",
+            "./test/governance/utils/EIP6372.behavior.js"
+        ]
+    },
+    {
+        "sharding_id": "utils",
+        "sources_paths": [
+            "./test/utils/",
+            "./test/helpers/"
+        ]
+    }
+]
