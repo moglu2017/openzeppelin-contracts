@@ -17,7 +17,17 @@
     {
         "sharding_id": "governance",
         "sources_paths": [
-            "./test/governance/",
+            "./test/governance/Governor.test.js",
+            "./test/governance/Governor.t.sol",
+            "./test/governance/utils/EIP6372.behavior.js",
+            "./test/helpers/",
+            "./test/utils/introspection/SupportsInterface.behavior.js"
+        ]
+    },
+    {
+        "sharding_id": "timelock",
+        "sources_paths": [
+            "./test/governance/TimelockController.test.js",
             "./test/helpers/",
             "./test/utils/introspection/SupportsInterface.behavior.js"
         ]
