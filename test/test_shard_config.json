@@ -25,9 +25,18 @@
         ]
     },
     {
-        "sharding_id": "timelock",
+        "sharding_id": "gov_timelock",
         "sources_paths": [
             "./test/governance/TimelockController.test.js",
+            "./test/helpers/",
+            "./test/utils/introspection/SupportsInterface.behavior.js"
+        ]
+    },
+    {
+        "sharding_id": "gov_utils_extensions",
+        "sources_paths": [
+            "./test/governance/utils",
+            "./test/governance/extensions",
             "./test/helpers/",
             "./test/utils/introspection/SupportsInterface.behavior.js"
         ]
