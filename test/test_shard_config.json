@@ -68,8 +68,10 @@
     {
         "sharding_id": "token_ERC721",
         "sources_paths": [
-            "./test/token/ERC20/",
+            "./test/token/ERC721/",
             "./test/helpers/",
+            "./test/token/common/ERC2981.behavior.js",
+            "./test/utils/introspection/SupportsInterface.behavior.js",
             "./test/governance/utils/Votes.behavior.js",
             "./test/governance/utils/EIP6372.behavior.js"
         ]
