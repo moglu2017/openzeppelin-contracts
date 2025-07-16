@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        sharding: [access,finance,governance,gov_timelock,gov_utils_extensions,timelock,metatx,proxy,token_ERC20,token_ERC721,token_ERC1155,utils]
+        sharding: [access,finance,governance,gov_timelock,gov_utils_extensions,metatx,proxy,token_ERC20,token_ERC721,token_ERC721Enumerable,token_ERC721Wrapper,token_ERC721_extensions,token_ERC1155,utils]
     steps:
       - uses: actions/checkout@v4
       - name: Set up environment
